@@ -1,0 +1,8 @@
+/* NOTE: plum/copper are estimated from the logo - verify with an eyedropper on the original file. */
+:root{
+  --brand-plum:#5E1F4F; --brand-plum-dark:#431338; --brand-plum-light:#8A4A78;
+  --brand-copper:#B8643C; --brand-copper-light:#E2A27F;
+  --bg-cream:#FFF8F5; --surface:#FFFFFF; --text:#2B2227; --muted:#6F6269; --border:#EADFDA;
+  --success:#2F8F6B; --warning:#C98A1B; --danger:#C0504D;
+  --radius-card:18px; --shadow-card:0 6px 24px rgba(94,31,79,.08);
+}

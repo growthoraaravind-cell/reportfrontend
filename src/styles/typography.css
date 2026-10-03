@@ -1,0 +1,3 @@
+*{letter-spacing:0!important}.hero-copy h1{font-size:58px}.page-intro h1{font-size:54px}.result-hero h1{font-size:52px}.scheme-detail h1{font-size:54px}.not-found h1{font-size:42px}
+@media(max-width:900px){.hero-copy h1{font-size:50px}.page-intro h1{font-size:48px}.result-hero h1,.scheme-detail h1{font-size:46px}}
+@media(max-width:680px){.hero-copy h1{font-size:40px}.page-intro h1{font-size:40px}.result-hero h1{font-size:36px}.scheme-detail h1{font-size:39px}.not-found h1{font-size:34px}}
