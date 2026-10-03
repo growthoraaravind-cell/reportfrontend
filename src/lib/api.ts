@@ -3,7 +3,7 @@ import type { AxiosError, InternalAxiosRequestConfig } from 'axios';
 import type { ApiEnvelope } from './types';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || '/api/v1',
+  baseURL: import.meta.env.VITE_API_URL || (import.meta.env.PROD ? 'https://report-hade.onrender.com/api/v1' : '/api/v1'),
   withCredentials: true,
   timeout: 30_000,
 });
